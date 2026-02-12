@@ -4,13 +4,27 @@ A small web app that returns random deep-thought-style monologues inspired by su
 
 The generator builds thoughts from modular phrase pools, giving **well over 1,000 possible unique thoughts**.
 
-## Run
+## Run from Python
 
 ```bash
 python app.py
 ```
 
 Then open `http://localhost:8000`.
+
+## Build a Windows `.exe`
+
+From **Windows Command Prompt** in this project folder:
+
+```bat
+build_exe.bat
+```
+
+This creates:
+
+- `dist\DeepThoughtDispenser.exe`
+
+Run the EXE, then open `http://localhost:8000` in your browser.
 
 ## API
 
